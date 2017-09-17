@@ -1,0 +1,27 @@
+{
+  "name": "remove-stopwords",
+  "version": "1.0.0",
+  "description": "A package to remove common stopwords from an array, it covers most languages and is optimized primarily for WorldBrain",
+  "main": "lb/stopword.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldBrain/remove-stopwords.git"
+  },
+  "keywords": [
+    "stopwords",
+    "nlp",
+    "remove"
+  ],
+  "author": "Yager Anderson <swissums@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorldBrain/remove-stopwords/issues"
+  },
+  "homepage": "https://github.com/WorldBrain/remove-stopwords#readme"
+}
