@@ -8,6 +8,7 @@ meaning.](https://en.wikipedia.org/wiki/Stop_words).
 This library is specifically designed for WorldBrain's usecase of stripping as many words from every webpage as possible to make search-indexing faster in regards to several thousand documents of varying information.
 
 **Credits:**
+
 This module was essentially coppied directly from [@fergiemcdowall's stopword library](https://github.com/fergiemcdowall/stopword). 
 The only differences is that more language support was added from this [stopwords json lib](https://github.com/6/stopwords-json)
 Also there are minor tweaks to several languages specifically for worldbrains use-case.
