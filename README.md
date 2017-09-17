@@ -1,4 +1,4 @@
-# remove-stopword
+# remove-stopwords
 `remove-stopword` is a node module that allows you to strip stopwords from an
 input text. [In natural language processing, "Stopwords" are words
 that are so frequent that they can safely be removed from a text
