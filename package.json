@@ -2,7 +2,7 @@
   "name": "remove-stopwords",
   "version": "1.0.0",
   "description": "A package to remove common stopwords from an array, it covers most languages and is optimized primarily for WorldBrain",
-  "main": "lb/stopword.js",
+  "main": "lib/stopword.js",
   "directories": {
     "lib": "lib"
   },
