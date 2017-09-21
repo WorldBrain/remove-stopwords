@@ -30,13 +30,23 @@ const newString = sw.removeStopwords(oldString)
 ```
 
 ### Other languages
-You can also specify a language other than English:
+You can also specify a language other than English, as a string:
 ```javascript
 sw = require('stopword')
 const oldString = 'Trädgårdsägare är beredda att pröva vad som helst för att bli av med de hatade mördarsniglarna åäö'.split(' ')
 // sw.sv contains swedish stopwords
-const newString = sw.removeStopwords(oldString, sw.sv)
+const newString = sw.removeStopwords(oldString, 'sv')
 // newString is now [ 'Trädgårdsägare', 'beredda', 'pröva', 'helst', 'hatade', 'mördarsniglarna', 'åäö' ]
+```
+
+### All languages
+You can also specify to remove stopwords from all languages by specifying `'all'`:
+```javascript
+sw = require('stopword')
+const oldString = 'Trädgårdsägare är beredda att a really Interesting string with some words ciao'.split(' ')
+// 'all' iterates over every stopword list in the lib
+const newString = sw.removeStopwords(oldString, 'all')
+// newString is now [ 'Trädgårdsägare', 'beredda', 'really', 'Interesting', 'string', 'words' ]
 ```
 
 ### Custom list of stopwords
